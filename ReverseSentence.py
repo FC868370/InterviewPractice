@@ -1,4 +1,4 @@
-def reverse(str input)
+def reverse(input)
   output = ""
   letters = input.split()
   letters.reverse()
