@@ -1,8 +1,8 @@
-def reverse(input)
+def reverse(input):
   output = ""
   letters = input.split()
   letters.reverse()
-  for letter in letters
+  for letter in letters:
     output.append(letter)
 
   return output
